@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Cinzel";
+  src: url("/Didot.otf") format("opentype"); /* Sesuaikan path */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.cinzel {
+  font-family: "Cinzel", sans-serif;
+}
+
+body {
+  overflow: hidden;
+}
