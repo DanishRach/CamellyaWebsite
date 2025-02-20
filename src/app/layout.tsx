@@ -2,8 +2,11 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Camellya",
-  description: "",
+  title: "Danish Portofolio",
+  description: "All My Projects",
+  icons: {
+    icon: "/icon.ico", 
+  },
 };
 
 export default function RootLayout({
@@ -13,15 +16,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        {/* Tambahkan link ke favicon */}
-        <link rel="icon" href="/icon.ico" type="image/x-icon" />
-      </head>
-      <body
-        className={`antialiased`}
-      >
-        {children}
-      </body>
+      <head></head>
+      <body className={`antialiased`}>{children}</body>
     </html>
   );
 }
