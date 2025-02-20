@@ -513,51 +513,51 @@ class App {
   ) {
     const defaultItems = [
       {
-        image: `/Potrait/1.jpg`,
+        image: `/potrait/1.jpg`,
         text: "Cute",
       },
       {
-        image: `/Potrait/2.jpg`,
+        image: `/potrait/2.jpg`,
         text: "Pretty",
       },
       {
-        image: `/Potrait/3.jpg`,
+        image: `/potrait/3.jpg`,
         text: "Adorable",
       },
       {
-        image: `/Potrait/4.jpg`,
+        image: `/potrait/4.jpg`,
         text: "Funny",
       },
       {
-        image: `/Potrait/5.jpg`,
+        image: `/potrait/5.jpg`,
         text: "Cute",
       },
       {
-        image: `/Potrait/6.jpg`,
+        image: `/potrait/6.jpg`,
         text: "Pretty",
       },
       {
-        image: `/Potrait/7.jpg`,
+        image: `/potrait/7.jpg`,
         text: "Adorable",
       },
       {
-        image: `/Potrait/8.jpg`,
+        image: `/potrait/8.jpg`,
         text: "Funny",
       },
       {
-        image: `/Potrait/9.jpg`,
+        image: `/potrait/9.jpg`,
         text: "Cute",
       },
       {
-        image: `/Potrait/10.jpg`,
+        image: `/potrait/10.jpg`,
         text: "Pretty",
       },
       {
-        image: `/Potrait/11.jpg`,
+        image: `/potrait/11.jpg`,
         text: "Adorable",
       },
       {
-        image: `/Potrait/12.jpg`,
+        image: `/potrait/12.jpg`,
         text: "Funny",
       },
     ];
