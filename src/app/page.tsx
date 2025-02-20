@@ -25,7 +25,8 @@ const LandingPage = () => {
   useEffect(() => {
     // Check if mobile device
     const checkMobile = () => {
-      const mobileRegex = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
+      const mobileRegex =
+        /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
       setIsMobile(mobileRegex.test(navigator.userAgent));
     };
 
@@ -234,8 +235,8 @@ const LandingPage = () => {
             </div>
             <div className="col">
               <h2 className="cinzel">
-              &quot;Hi! I&apos;m Camellya, a Bloom Bearer of the Black Shores. Happy to
-                see you again! My beloved... seed of fate.&quot;
+                &quot;Hi! I&apos;m Camellya, a Bloom Bearer of the Black Shores.
+                Happy to see you again! My beloved... seed of fate.&quot;
               </h2>
             </div>
           </div>
